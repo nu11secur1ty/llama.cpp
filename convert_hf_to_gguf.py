@@ -8951,6 +8951,7 @@ class DeepseekModel(TextModel):
 
 
 @ModelBase.register(
+    "nu11secur1tyAIForCausalLM",
     "DeepseekV2ForCausalLM",
     "DeepseekV3ForCausalLM",
     "KimiVLForConditionalGeneration",
